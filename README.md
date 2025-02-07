@@ -16,7 +16,8 @@ This project implements **PWM-based DC motor control** using an **Arduino (ATmeg
 - **Motor Rated Current:** ~5A  
 - **Maximum Safe Current (currentMAX):** 15A (Protection Threshold)  
 - **PWM Frequency:** ~490Hz (Default Arduino PWM)  
-- **Power Source:** 12V Battery or DC Supply  
+- **Power Source:** 12V Battery or DC Supply
+-  **Motor Direction** The motor moves in only one direction  
 
 ---
 
@@ -34,7 +35,7 @@ This project implements **PWM-based DC motor control** using an **Arduino (ATmeg
 ### **How It Works**  
 1. The **start button** enables the motor.  
 2. The **potentiometer adjusts the PWM duty cycle** for speed control.  
-3. **L298 controls motor direction** via IN1 and IN2 pins.  
+3. **L298 controls motor direction** via IN1 pin. 
 4. **ACS712 monitors current**, stopping the motor if it exceeds `currentMAX`.  
 5. **Serial Monitor prints PWM values, current readings, and status updates.**  
 
