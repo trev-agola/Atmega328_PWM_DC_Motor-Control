@@ -63,6 +63,4 @@ This project is **fully simulated in Proteus**, considering:
 - `PWM_Motor_Control.pdsprj` → Proteus simulation file  
 - `README.md` → Project documentation  
 
-🔗 **License:** MIT  
-
 🚀 **Contributions are welcome!**
