@@ -59,8 +59,8 @@ This project is **fully simulated in Proteus**, considering:
 ---
 
 📂 **Repository Contents**:  
-- `motor_control.ino` → Main Arduino code  
-- `Proteus_Simulation.pdsprj` → Proteus simulation file  
+- `PWM_motor_control.ino` → Main Arduino code  
+- `PWM_Motor_Control.pdsprj` → Proteus simulation file  
 - `README.md` → Project documentation  
 
 🔗 **License:** MIT  
