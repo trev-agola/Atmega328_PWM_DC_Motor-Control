@@ -14,7 +14,7 @@ This project implements **PWM-based DC motor control** using an **Arduino (ATmeg
 ### **Assumptions & Design Considerations**  
 - **Motor Rated Voltage:** 12V DC  
 - **Motor Rated Current:** ~5A  
-- **Maximum Safe Current (currentMAX):** 15A (Protection Threshold)  
+- **Maximum Safe Current (currentMAX):** 7A (Protection Threshold due to high starting current)  
 - **PWM Frequency:** ~490Hz (Default Arduino PWM)  
 - **Power Source:** 12V Battery or DC Supply
 -  **Motor Direction** The motor moves in only one direction  
