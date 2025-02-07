@@ -17,7 +17,8 @@ This project implements **PWM-based DC motor control** using an **Arduino (ATmeg
 - **Maximum Safe Current (currentMAX):** 7A (Protection Threshold due to high starting current)  
 - **PWM Frequency:** ~490Hz (Default Arduino PWM)  
 - **Power Source:** 12V Battery or DC Supply
--  **Motor Direction** The motor moves in only one direction  
+-  **Motor Direction** The motor moves in only one direction
+- **Simulation Constraints** The Atmega328p simulation on Proteus has a bug on analog inputs and can therefore not process them correctly. Therefore, the PWM input derived from the pot is fixed at 0 or 1023.
 
 ---
 
