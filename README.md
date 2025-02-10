@@ -1,6 +1,7 @@
-### **Arduino PWM Motor Control with L298 (IC) and Overcurrent Protection**  
+### **ATmega328p PWM Motor Control with L298 (IC) and Overcurrent Protection**  
+![Screenshot (44)](https://github.com/user-attachments/assets/5e4a22b6-912f-4595-bd10-fbf9dad9db74)
 
-This project implements **PWM-based DC motor control** using an **Arduino (ATmega328P)**, **L298 dual H-Bridge IC**, **potentiometer**, and **ACS712 current sensor**. The system features:  
+This project implements **PWM-based DC motor control** using an **ATmega328P**, **L298 dual H-Bridge IC**, **potentiometer**, and **ACS712 current sensor**. The system features:  
 
 ✅ **PWM Speed Control** using a potentiometer (0–1023 mapped to 0–255).  
 ✅ **L298 H-Bridge Motor Driver (IC)** for bidirectional motor control.  
